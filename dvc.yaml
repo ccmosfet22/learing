@@ -1,0 +1,7 @@
+stages:
+  train:
+    cmd: python src/mobilenet.py
+    deps:
+    - src/mobilenet.py
+    outs:
+    - model/test_model.h5

@@ -1,0 +1,10 @@
+train:
+  cmd: python src/mobilenet.py
+  deps:
+  - path: src/mobilenet.py
+    md5: 0b393fc1efb14c0e2d816f58de8071c7
+    size: 3011
+  outs:
+  - path: model/test_model.h5
+    md5: 9ce024152cef623fe35f17a4c9cca1de
+    size: 26046984
